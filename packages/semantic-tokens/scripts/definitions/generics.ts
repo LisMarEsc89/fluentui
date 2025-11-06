@@ -35,6 +35,13 @@ export const generics: GenericTypes = {
     states: [''],
     exceptions: [
       {
+        // Brand also has a heavy  emphasis
+        type: 'color',
+        variants: ['brand'],
+        emphasis: ['heavy', 'transparent'],
+        states: [''],
+      },
+      {
         // Neutral also has a heavy and transparent emphasis
         type: 'color',
         variants: ['neutral'],

@@ -40,9 +40,6 @@ export const buttonGroup: GroupPart = {
     },
   ],
   parts: {
-    lightness: {
-      coreProperties: ['hover', 'pressed'],
-    },
     icononly: {
       coreProperties: ['padding'],
     },

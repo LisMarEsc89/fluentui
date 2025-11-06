@@ -95,7 +95,6 @@ export const buttonFallbacks: GroupFallback = {
   },
   groupButtonPrimaryBackgroundSelected: {
     fluent: tokens.colorBrandBackgroundSelected,
-    // TODO: Review generic mapping
     generic: 'backgroundBrandHeavy',
   },
   groupButtonPrimaryBackgroundHoverSelected: {
@@ -682,13 +681,5 @@ export const buttonFallbacks: GroupFallback = {
   groupButtonShadow: {
     // Shadow needs to be null-populated to work with combinations for focus
     fluent: '0 0 0 transparent',
-  },
-  groupButtonLightnessHover: {
-    fluent: '-5',
-    generic: 'lightnessHover',
-  },
-  groupButtonLightnessPressed: {
-    fluent: '-10',
-    generic: 'lightnessPressed',
   },
 };

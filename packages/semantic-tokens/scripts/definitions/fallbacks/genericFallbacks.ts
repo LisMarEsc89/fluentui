@@ -174,4 +174,11 @@ export const genericFallbacks: GenericFallbacks = {
   foregroundDisabled: {
     primitive: 'colorNeutral3',
   },
+  backgroundBrandHeavy: {
+    primitive: 'colorBrand1',
+  },
+  backgroundBrandTransparent: {
+    fluent: tokens.colorTransparentBackground,
+    primitive: 'colorBrandAlpha',
+  },
 };
