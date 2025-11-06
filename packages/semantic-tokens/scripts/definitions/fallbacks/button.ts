@@ -682,4 +682,7 @@ export const buttonFallbacks: GroupFallback = {
     // Shadow needs to be null-populated to work with combinations for focus
     fluent: '0 0 0 transparent',
   },
+  groupButtonFontweightSelected: {
+    fluent: tokens.fontWeightSemibold,
+  },
 };

@@ -488,6 +488,9 @@ export const groupButtonFontsize = "var(--smtc-group-button-fontsize, var(--font
 export const groupButtonFontweight = "var(--smtc-group-button-fontweight, var(--fontWeightSemibold))";
 
 // @public (undocumented)
+export const groupButtonFontweightSelected = "var(--smtc-group-button-fontweight-selected, var(--fontWeightSemibold))";
+
+// @public (undocumented)
 export const groupButtonGap = "var(--smtc-group-button-gap, var(--spacingHorizontalSNudge))";
 
 // @public (undocumented)

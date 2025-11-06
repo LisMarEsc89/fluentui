@@ -15,6 +15,7 @@ const useRootCheckedStyles = makeStyles({
     ...shorthands.borderColor(semanticTokens.groupButtonNeutralStrokeSelected),
     color: semanticTokens.groupButtonNeutralForegroundSelected,
     ...shorthands.borderWidth(semanticTokens.groupButtonStrokewidth),
+    fontWeight: semanticTokens.groupButtonFontweightSelected,
     [`& .${buttonClassNames.icon}`]: {
       color: semanticTokens.groupButtonNeutralIconForegroundSelected,
     },
